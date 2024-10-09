@@ -1,0 +1,19 @@
+Install Anaconda
+-----------------------
+1) Open Ananconda Prompt
+2) Type the command 
+conda create -n project python==3.6.9
+3) Some packages will be installed. Click 'y' to proceed
+4) Now type "conda activate project". Now we will go to the project environment
+
+Installation of Packages
+------------------------
+We should install 4 packages namely
+--opencv-python
+--pyautogui
+--conda-forge
+--dlib
+1) Type "pip install opencv-python pyautogui"
+2) Type "conda install -c conda-forge dlib"
+3)  Now type "conda list" to check whether our required packages are installed or not.
+
